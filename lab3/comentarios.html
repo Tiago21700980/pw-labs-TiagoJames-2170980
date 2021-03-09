@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title> Sendai City </title>
+        <meta name="author" content="Tiago James">
+<meta name="keywords" content="Sendai">
+<meta name="description" content="Website sobre Sendai">
+<link rel="shortcut icon" type="images/x-icon" href="images/Dragonball-Goku.ico"/>    
+</head>
+    <body>
+        <body style="background-color:#CC6633"></body>
+        <h1><center>Cidade de Sendai</center> </h1>
+        <br>
+        <center><img src="images/Sendaimanga.jpg" width="300"></center>
+        <br>
+        <center>
+        <a href="index.html">Introdução</a> |  
+        <a href="local.html">Localização</a> | 
+        <a href="multimedia.html">Multimédia</a> |
+        <a href="info.html">Informações</a> |
+        <a href="quizz.html">Quizz</a> |
+        <b>Comentários</b> | 
+        <a href="../index.html">Home</a>
+        </center>
+
+        <hr>
+
+        <h3> Comentários </h3>
+
+        <p> Aqui poderás deixar os teus comentários sobre o meu site, sem formalidades sem nada, diz o que te vai na alma, todas as criticas são bem vindas desde que sejam construtivas
+            há cerca do Web Site relativamente à cidade de Sendai.</p>
+
+        <form action="/action_page.php">
+
+            <p> Nome: <input type="text" name ="nome" placeholder="O teu nome" size="8">  </p>
+            <p> Apelido: <input type="text" name ="apelido" placeholder="e apelido claro" size="9"></p>
+        
+            <p> Comentário: </p>
+            <textarea name="message" rows="10" cols="100">
+            </textarea>
+            <br><br>
+
+        <h4> O que é que achas do Web site?</h4>
+            
+            <p> O site é explicito de que se trata da cidade de Sendai? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Sim ou Não"></p>
+            <p> Faz te sentido a logica deste site? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Não ou Sim"></p>
+            <p> Encontraste algum erro no site? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Sim ou Não"></p>
+            <p> O site fala/abrange bastantes aspetos sobre Sendai? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Não ou Sim"> </p>
+            <label for="quantity"> Qual é a tua percentagem favorita? <br> </label>
+            <input type="range" min="0" max="100" name="taxa" value="quantity" oninput="taxaN.value = parseInt(taxa.value)"><output name="taxaN" for="taxa">0</output> %
+            
+
+            <p> Quão facil foi navegar pelo site : </p>
+                <input type="radio" name ="Utilização" value="numero">
+                <label for="numero1"> Bué fácil</label> <br>
+                <input type="radio" name="Utilização" value="numero">
+                <label for="numero2"> Fácil </label><br>
+                <input type="radio" name="Utilização" value ="numero">
+                <label for="numero3"> Eh, come-se </label><br>
+                <input type="radio" name="Utilização" value ="numero">
+                <label for="numero4"> Epah... </label><br>
+                <input type="radio" name="Utilização" value ="numero">
+                <label for="numero5"> Chegar aqui foi milagre</label><br>
+
+            <p> Facilidade de entender o conteudo do site : </p>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value ="numero">
+                <label for="Avaliação1"> Sendai Best City Ever </label><br>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value ="numero">
+                <label for="Avaliação2"> Deu para perceber  </label> <br>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                <label for="Avaliação3"> Meh </label> <br>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                <label for="Avaliação4"> Não percebi bem as coisas </label> <br>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                <label for="Avaliação5"> É sobre o quê este site? </label> <br><br>
+
+            <label for="quantity"> De 0 a 10 dás quanto ao site? </label>
+            <input type="number" id="quantity" name="quantity" min="0" max="10" step="1" ></p>
+
+            <label for="quantity"> De 0 a 10 quão original tá este menino? </label>
+            <input type="number" id="quantity" name="quantity" min="0" max="10" step="1" ></p>
+
+            <label for="quantity"> O design está horrivel mas de 0 a 10 dás quanto?</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="10" step="1" ></p>
+
+            <p> Diz ai cenas para melhorar o site! :D</p>
+            <textarea name="message" rows="5" cols="100">
+            </textarea><br> <br>
+
+            <input type="image" src="images/setinhazul.png" alt="Submit" width="50" height="50"><br>
+            <input type="submit" value="Submit">
+
+            <input type="hidden" id="Laboratório3" name="Opinião sobre o laboratório 3" value="10000">
+          </form> 
+    </body>
+</html>
