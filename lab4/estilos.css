@@ -1,0 +1,190 @@
+* {
+    font-family: "Barlow Condensed", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-size: 25px;
+  }
+  
+  body header {
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: auto;
+    text-align: center;
+  }
+  
+  body nav {
+    margin: auto;
+    width: 800px;
+    font-size: 14px;
+  }
+  
+  header ~ main {
+    margin: auto;
+    width: 600px;
+  }
+  
+  main + footer {
+    font-size: 34px;
+    margin: auto;
+    width: 800px;
+  }
+  
+  a:link {
+    color: rgb(255, 251, 0);
+  }
+  
+  a:visited {
+    color: rgb(21, 255, 0);
+  }
+  
+  a:hover {
+    color: rgb(255, 94, 0);
+  }
+  
+  a:active {
+    color: rgb(255, 0, 179);
+  }
+  
+  h1::before {
+    content: " \01F525";
+  }
+  
+  #menuop1::after {
+    content: " .~-*";
+    font-size: 15px;
+  }
+  
+  #menuop2::after {
+    content: " .~-*";
+    font-size: 15px;
+  }
+  
+  #menuop3::after {
+    content: " .~-*";
+    font-size: 15px;
+  }
+  #menuop4::after {
+    content: " .~-*";
+    font-size: 15px;
+  }
+  #menuop5::after {
+    content: " .~-*";
+    font-size: 15px;
+  }
+  #menuop6::after {
+    content: " .~-*";
+    font-size: 15px;
+  }
+  #menuop7::after {
+    content: " .~-*";
+    font-size: 15px;
+  }
+  #menuop8::after {
+    content: "            .~-*";
+    font-size: 15px;
+  }
+   
+  #descricao::selection {
+    color: rgb(24, 36, 37);
+  }
+  
+  #poema::first-letter {
+    font-size: 24px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(178, 178, 206);
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(231, 226, 181);
+  }
+  
+  [src="imagens/franca.jpg"] {
+    border: 5px solid #555;
+  }
+  
+  [alt^="foto"] {
+    border: 5px solid rgb(122, 53, 53);
+  }
+  
+  [alt$="Fotos"] {
+    border: 5px solid rgb(80, 136, 105);
+  }
+  
+  [name*="awesome"] {
+    border: 5px solid rgb(122, 21, 122);
+  }
+  
+  iframe {
+    color: #000;
+    border: 5px solid rgb(161, 61, 58);
+  }
+  
+  #descricao::first-letter {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  
+  #descricao::first-line {
+    color: rgb(255, 255, 255);
+  }
+  
+  .break {
+    visibility: hidden;
+    display: block;
+  }
+  
+  img.relativo {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #000000;
+  }
+  
+  img.absoluto {
+    position: absolute;
+    top: 1800px;
+    right: 610px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #000000;
+  }
+  
+  figcaption.texto_relativo {
+    position: absolute;
+    top: 1870px;
+    right: 400px;
+    width: 200px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+  }
+  
+  figure.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+  }
+  
+  figure.outro {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+  }
+
+  body table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: rgb(243, 198, 198);
+    text-align: center;
+    margin-left: 25%;
+  }
