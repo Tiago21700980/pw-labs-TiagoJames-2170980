@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Sendai City </title>
+    <meta name="author" content="Tiago James">
+    <meta name="keywords" content="Sendai">
+    <meta name="description" content="Website sobre Sendai">
+    <link rel="shortcut icon" type="images/x-icon" href="images/Dragonball-Goku.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+
+
+<body>
+
+    <div class="parent">
+        <div class="header">
+
+            <body style="background-color:#CC6633"></body>
+            <header>
+                <center>
+                    <h1>Sendai</h1>
+                    <figure>
+                        <img src="images/Sendaimanga.jpg" width="300">
+                        <figcaption>Sendai caracterizada num Mangá</figcaption>
+                        <details>
+                            <summary> Sauce da Imagem : <b><a href="https://w11.mangafreak.net/Read1_Jujutsu_Kaisen_1"
+                                        target="_blank">Jujutsu Kaisen</a></b></summary>
+                            <p>Jujutsu Kaisen, uma obra prima moderna. Qualquer connoisseur de animes e mangás terá
+                                muito gosto
+                                em embarcar nesta aventura</p>
+                        </details>
+                    </figure>
+                    <br>
+                </center>
+            </header>
+        </div>
+        <nav>
+            <div class="d1"><a href="index.html" id="menuop4"><i class="material-icons"
+                        style="font-size:24px;color:rgb(255, 255, 255)">filter_1</i> Introdução</a> </div>
+            <div class="d2"><a href="local.html" id="menuop5"><i class="material-icons"
+                        style="font-size:24px;color:rgb(0, 0, 0)">filter_2</i> Localização </a> </div>
+            <div class="d3"><a href="multimedia.html" id="menuop6"><i class="material-icons"
+                        style="font-size:24px;color:rgb(255, 255, 255)">filter_3</i> Multimédia </a> </div>
+            <div class="d4"><a href="info.html" id="menuop7"><i class="material-icons"
+                        style="font-size:24px;color:rgb(0, 0, 0)">filter_4</i> Informações </a> </div>
+            <div class="d5"><a href="quizz.html" id="menuop1"><i class="material-icons"
+                        style="font-size:24px;color:rgb(255, 255, 255)">filter_5</i> Quizz </a> </div>
+            <div class="d6"><a href="comentarios.html" id="menuop2"><i class="material-icons"
+                        style="font-size:24px;color:rgb(0, 0, 0)">filter_6</i> Comentários </a> </div>
+            <div class="d7"><a href="html5-css.html" id="menuop8"><i class="material-icons"
+                        style="font-size:24px;color:rgb(255, 255, 255)">filter_7</i> Style Page </a> </div>
+            <div class="d8"><a href="../index.html" id="menuop3"><i class="material-icons"
+                        style="font-size:24px;color:rgb(0, 0, 0)">
+                        filter_8</i> Home </a> </div>
+        </nav>
+
+        <div class="main">
+            <main>
+                <section>
+                    <h3> Comentários </h3>
+
+                    <p> Aqui poderás deixar os teus comentários sobre o meu site, sem formalidades sem nada, diz o que
+                        te vai na
+                        alma, todas as criticas são bem vindas desde que sejam construtivas
+                        há cerca do Web Site relativamente à cidade de Sendai.</p>
+
+                    <form action="/action_page.php">
+
+                        <p> Nome: <input type="text" name="nome" placeholder="O teu nome" size="8"> </p>
+                        <p> Apelido: <input type="text" name="apelido" placeholder="e apelido claro" size="9"></p>
+
+                        <p> Comentário: </p>
+                        <textarea name="message" rows="10" cols="100">
+                </textarea>
+                        <br><br>
+
+                        <h4> O que é que achas do Web site?</h4>
+
+                        <p> O site é explicito de que se trata da cidade de Sendai? <input type="text" id="Sim"
+                                name="simOuNao" maxlength="3" size="20" placeholder="Sim ou Não"></p>
+                        <p> Faz te sentido a logica deste site? <input type="text" id="Sim" name="simOuNao"
+                                maxlength="3" size="20" placeholder="Não ou Sim"></p>
+                        <p> Encontraste algum erro no site? <input type="text" id="Sim" name="simOuNao" maxlength="3"
+                                size="20" placeholder="Sim ou Não"></p>
+                        <p> O site fala/abrange bastantes aspetos sobre Sendai? <input type="text" id="Sim"
+                                name="simOuNao" maxlength="3" size="20" placeholder="Não ou Sim"> </p>
+                        <label for="quantity"> Qual é a tua percentagem favorita? <br> </label>
+                        <input type="range" min="0" max="100" name="taxa" value="quantity"
+                            oninput="taxaN.value = parseInt(taxa.value)"><output name="taxaN" for="taxa">50</output> %
+
+
+                        <p> Quão facil foi navegar pelo site : </p>
+                        <input type="radio" name="Utilização" value="numero">
+                        <label for="numero1"> Bué fácil</label> <br>
+                        <input type="radio" name="Utilização" value="numero">
+                        <label for="numero2"> Fácil </label><br>
+                        <input type="radio" name="Utilização" value="numero">
+                        <label for="numero3"> Eh, come-se </label><br>
+                        <input type="radio" name="Utilização" value="numero">
+                        <label for="numero4"> Epah... </label><br>
+                        <input type="radio" name="Utilização" value="numero">
+                        <label for="numero5"> Chegar aqui foi milagre</label><br>
+
+                        <p> Facilidade de entender o conteudo do site : </p>
+                        <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                        <label for="Avaliação1"> Sendai Best City Ever </label><br>
+                        <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                        <label for="Avaliação2"> Deu para perceber </label> <br>
+                        <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                        <label for="Avaliação3"> Meh </label> <br>
+                        <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                        <label for="Avaliação4"> Não percebi bem as coisas </label> <br>
+                        <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                        <label for="Avaliação5"> É sobre o quê este site? </label> <br><br>
+
+                        <label for="quantity"> De 0 a 10 dás quanto ao site? </label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="10" step="1"></p>
+
+                        <label for="quantity"> De 0 a 10 quão original tá este menino? </label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="10" step="1"></p>
+
+                        <label for="quantity"> O design está horrivel mas de 0 a 10 dás quanto?</label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="10" step="1"></p>
+
+                        <p> Diz ai cenas para melhorar o site! :D</p>
+                        <textarea name="message" rows="5" cols="100">
+                </textarea><br> <br>
+
+                        <input type="image" src="images/Setinhazul.png" alt="Submit" width="50" height="50"><br>
+                        <input type="submit" value="Submit">
+
+                        <input type="hidden" id="Laboratório3" name="Opinião sobre o laboratório 3" value="10000">
+                    </form>
+                </section>
+            </main>
+        </div>
+        <div class="aside">
+            <center>
+                <aside>
+                    Jujutsu Kaisen Cover de que curto milhões
+                </aside>
+            </center>
+
+            <center>
+                <aside>
+                    <img src="images/JUJUKAI.png" width="300">
+                </aside>
+            </center>
+        </div>
+        <div class="footer"> </div>
+    </div>
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <footer>
+        <p>
+            <n>Tiago James, <a href="https://www.ulusofona.pt/">ulusofona</a>, a21700980, 2021</n>
+        </p>
+    </footer>
+
+
+</body>
+
+</html>
